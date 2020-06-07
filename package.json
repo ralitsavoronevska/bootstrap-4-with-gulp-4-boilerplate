@@ -1,0 +1,43 @@
+{
+  "name": "bootstrap-4-boilerplate",
+  "version": "1.0.3",
+  "description": "Bootstrap 4.5.0. boilerplate with Gulp 4.0.2 and HTML5 for automation and rapid development.",
+  "author": "Ralitsa Voronevska",
+  "license": "MIT",
+  "homepage": "https://ralitsavoronevska.github.io/bootstrap-4-with-gulp-4-boilerplate",
+  "scripts": {
+    "start": "gulp",
+    "dev": "gulp serve",
+    "prod": "cross-env NODE_ENV=prod gulp",
+    "deploy": "gh-pages -d docs"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.5.0",
+    "browser-sync": "^2.26.3",
+    "cross-env": "^7.0.2",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-html-partial": "^1.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-js-import": "^1.0.6",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "gh-pages": "^3.0.0",
+    "jquery": "^3.5.1",
+    "popper": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralitsavoronevska/bootstrap-4-with-gulp-4-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ralitsavoronevska/bootstrap-4-with-gulp-4-boilerplate/issues"
+  }
+}
